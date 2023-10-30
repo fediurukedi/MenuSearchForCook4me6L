@@ -1763,10 +1763,10 @@ function replaceMenus(keyword = "") {
     }
     const menu = document.createElement('li');
     const link = document.createElement('a');
-    menu.appendChild(link)
     link.textContent = e.title;
     link.href = e.link;
     link.target = "_blank"
+    menu.appendChild(link)
     newMenus.push(menu)
   })
   menus.replaceChildren(...newMenus)

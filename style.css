@@ -1,3 +1,23 @@
+body {
+    margin: 20px;
+    padding: 0;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
 li {
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
 }
